@@ -1,0 +1,5 @@
+
+squid:S1186*"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦Ά8β΄π™…-
+jsquid:UselessImportCheck"?Remove this unused import 'org.greenrobot.eventbus.ThreadMode'.(νωςρ8΄ξτ¬…-
+squid:UselessImportCheck"aRemove this unused import 'com.example.zeed.edx_firebase_chat.contact.ui.events.AddContactEvent'.(ΎηΎ8΄ξτ¬…-
+nsquid:UselessImportCheck">Remove this unused import 'org.greenrobot.eventbus.Subscribe'.(ΓΖέψÿÿÿÿ8΄ξτ¬…-

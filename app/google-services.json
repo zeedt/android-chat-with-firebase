@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "54918427051",
+    "firebase_url": "https://zeed-edx-chat-app.firebaseio.com",
+    "project_id": "zeed-edx-chat-app",
+    "storage_bucket": "zeed-edx-chat-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54918427051:android:a8f906b9d732b3e4",
+        "android_client_info": {
+          "package_name": "com.example.zeed.edx_firebase_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54918427051-bfaqvtaltc5dkretmop9mbrng8co27m5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaNSeFtzBJULcZNnev6VpQ18OhJaAg4ZU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

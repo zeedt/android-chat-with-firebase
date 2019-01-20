@@ -1,0 +1,7 @@
+
+Usquid:S1135/"2Complete the task associated to this TODO comment.(í‹ÅÎúÿÿÿÿ8–¿‰Ã„-
+squid:S26375"aParameter 1 to this call is marked "android.support.annotation.NonNull" but null could be passed.(Ì¤äæ8¥Â¬…-
+squid:S2637""aParameter 1 to this call is marked "android.support.annotation.NonNull" but null could be passed.(¡×¹Š8ÂŒéÉ„-
+qsquid:S2259""S"NullPointerException" will be thrown when invoking method "getUserKeyFromEmail()".(¡×¹Š8‚ºèÂ„-
+]squid:S1118":Add a private constructor to hide the implicit public one.(šøâ´şÿÿÿÿ8×Š÷Â„-
+|squid:S2259."YA "NullPointerException" could be thrown; "getMyUSerDatabaseReference()" can return null.(œóõ³øÿÿÿÿ8ÕáÿÂ„-

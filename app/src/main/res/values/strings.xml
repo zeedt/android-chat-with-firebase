@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">edx-firebase-chat</string>
+    <string name="email_hint">Email address</string>
+    <string name="password_hint">Password</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="add_new_contact_title">Add New Contact</string>
+    <string name="cancel_contact_dialog_text">Cancel</string>
+    <string name="ok_contact_dialog_text">OK</string>
+    <string name="logout">Logout</string>
+</resources>
