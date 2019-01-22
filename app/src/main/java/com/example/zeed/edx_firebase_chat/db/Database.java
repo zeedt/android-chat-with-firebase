@@ -11,4 +11,6 @@ public class Database {
     public static final String ONLINE = "online";
 
     public static final String CONTACTS = "contacts";
+
+    public static final String CHATS = "chats";
 }
