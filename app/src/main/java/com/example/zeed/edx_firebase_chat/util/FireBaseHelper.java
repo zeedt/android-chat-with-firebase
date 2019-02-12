@@ -10,6 +10,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.example.zeed.edx_firebase_chat.db.Database.CHATS;
 import static com.example.zeed.edx_firebase_chat.db.Database.CONTACTS;
 import static com.example.zeed.edx_firebase_chat.db.Database.ONLINE;
 import static com.example.zeed.edx_firebase_chat.db.Database.USER_DATABASE;
@@ -83,5 +84,19 @@ public class FireBaseHelper {
         String email = getCurrentlyLoggedInUserEmail();
         return getMyUSerDatabaseReference().child(CONTACTS);
     }
+
+    public DatabaseReference getChatReference(String sender, String receiver) {
+
+        return databaseReference.getRoot().child(CHATS).child(getChatMessagePairKeyWithSenderAndReceiver(sender, receiver));
+    }
+
+    public String getChatMessagePairKeyWithSenderAndReceiver(String sender, String receiver) {
+        String chatKey = FireBaseHelper.getUserKeyFromEmail(sender) + "__" + FireBaseHelper.getUserKeyFromEmail(receiver);
+        if (sender.compareToIgnoreCase(receiver) > 0) {
+            chatKey = FireBaseHelper.getUserKeyFromEmail(receiver) + "__" + FireBaseHelper.getUserKeyFromEmail(sender);
+        }
+        return chatKey;
+    }
+
 
 }

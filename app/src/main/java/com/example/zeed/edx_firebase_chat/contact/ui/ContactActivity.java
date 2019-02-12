@@ -65,7 +65,8 @@ public class ContactActivity extends AppCompatActivity implements ContactListOpe
     }
 
     private void setUpRecyclerViewAdapter() {
-        contactListAdapter = new ContactListAdapter(new ArrayList<User>(), this);
+        contactListAdapter = new ContactListAdapter(new ArrayList<User>(), this
+        );
         recyclerView.setAdapter(contactListAdapter);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         layoutManager = new LinearLayoutManager(getApplicationContext());
@@ -119,5 +120,11 @@ public class ContactActivity extends AppCompatActivity implements ContactListOpe
     @Override
     public void onItemLongClick(User user) {
 
+    }
+
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.contact_menu, menu);
+        return true;
     }
 }

@@ -12,7 +12,6 @@ import com.example.zeed.edx_firebase_chat.util.FireBaseHelper;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -33,7 +32,6 @@ public class ContactListEventPresenterImpl implements ContactListenerPresenter {
     public void subscribeForContactListEvents() {
 
         FireBaseHelper helper = FireBaseHelper.getInstance();
-        DatabaseReference myUserReference = helper.getMyContactDatabaseReference();
 
         if (contactEventListener == null) {
             contactEventListener = new ChildEventListener() {
